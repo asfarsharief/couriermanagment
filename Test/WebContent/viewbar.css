@@ -1,0 +1,118 @@
+*{
+    border:0;
+    margin:0;
+    padding: 10px;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #666;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+h1{
+    background: #fff;
+    font-display: block;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+.nav{
+    background: #fff;
+    min-height: 59px;
+    overflow: auto;
+    
+}
+
+.nav .left{
+    
+    float: left;
+    margin-left: lem;
+}
+ul{
+    list-style: none;
+}
+.nav .left li{
+    float: left;
+}
+a{
+    display:contents;
+    padding: 17px 20px;
+    line-height: 30px;
+    color: #191919;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav .left a:hover{
+    background: #99ccff;
+    
+}
+
+ p, pre{
+    background-color:  #f2f2f2;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password],select{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.login, .register, .track, .newcreate, .head, .error, .update {
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+  
+.reg{
+	  margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}  
+    
+}

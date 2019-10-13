@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+ <servlet> 
+  	<servlet-name>PageLogin</servlet-name>
+  	<servlet-class>PageLogin</servlet-class>
+ </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PageLogin</servlet-name>
+  	<url-pattern>/PageLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet> 
+  	<servlet-name>PageRegister</servlet-name>
+  	<servlet-class>PageRegister</servlet-class>
+</servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PageRegister</servlet-name>
+  	<url-pattern>/PageRegister</url-pattern>
+  </servlet-mapping>
+  
+  
+<servlet> 
+  	<servlet-name>PageCreate</servlet-name>
+  	<servlet-class>PageCreate</servlet-class>
+</servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PageCreate</servlet-name>
+  	<url-pattern>/PageCreate</url-pattern>
+  	
+  	
+  </servlet-mapping>
+  
+  <servlet> 
+  	<servlet-name>PageTrack</servlet-name>
+  	<servlet-class>PageTrack</servlet-class>
+</servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PageTrack</servlet-name>
+  	<url-pattern>/PageTrack</url-pattern>
+  </servlet-mapping>
+  
+  <servlet> 
+  	<servlet-name>PageDelete</servlet-name>
+  	<servlet-class>PageDelete</servlet-class>
+</servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PageDelete</servlet-name>
+  	<url-pattern>/PageDelete</url-pattern>
+  </servlet-mapping>
+  
+   <servlet> 
+  	<servlet-name>PageAccount</servlet-name>
+  	<servlet-class>PageAccount</servlet-class>
+</servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PageAccount</servlet-name>
+  	<url-pattern>/PageAccount</url-pattern>
+  </servlet-mapping>
+  
+   <servlet> 
+  	<servlet-name>PageUpdate</servlet-name>
+  	<servlet-class>PageUpdate</servlet-class>
+</servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PageUpdate</servlet-name>
+  	<url-pattern>/PageUpdate</url-pattern>
+  </servlet-mapping>
+  
+   <servlet> 
+  	<servlet-name>PageName</servlet-name>
+  	<servlet-class>PageName</servlet-class>
+</servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PageName</servlet-name>
+  	<url-pattern>/PageName</url-pattern>
+  </servlet-mapping>
+  
+   <servlet> 
+  	<servlet-name>PageCost</servlet-name>
+  	<servlet-class>PageCost</servlet-class>
+</servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PageCost</servlet-name>
+  	<url-pattern>/PageCost</url-pattern>
+  </servlet-mapping>
+  
+  </web-app>
